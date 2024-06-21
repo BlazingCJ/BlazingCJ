@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@146&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+            list-style: none;
+            font-family: "Montserrat", sans-serif;
+        }
+        .banner{
+            width: auto;
+            height: auto%;
+            background-color: #ffffff;
+            background: 
+                linear-gradient(115deg, #ebdcff 20%, 
+                    transparent 95%) center center / 100%
+                    100%,
+                url("https://picsum.photos/2048/800/?random=5") right center / auto 150%;
+        }
+        .container{
+            width: 100%;
+            max-width: 1440px;
+            height: 100%;
+            margin: auto;
+
+        }
+
+        .banner-text{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .banner-txt h1{
+            font-size: 60px;
+            border-bottom: 0.8px solid #030000;
+            font-weight: 900;
+            padding-bottom: .3em;
+            margin-bottom: .3em;
+        }
+        .banner-txt h1 small{
+            display: block;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .banner-txt h2{
+            font-size: 25px;
+            font-weight: 700;
+
+        }
+        .banner-txt p{
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="container">
+            <div class="banner-txt">
+                <h1> 
+                    All prowess...
+                    <small>
+                        resides in me.
+                    </small> 
+                </h1>
+                    <h2> Place trust in yourself. </h2>
+                <br>
+                <p> There are more to yourself than you realize. <br>  
+                    And the first step to your success is to giving yourself <br>  
+                    the chance to see it... Open yourself up. <br>       
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
